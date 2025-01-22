@@ -48,7 +48,6 @@ const App = () => {
   const renderItem = ({ item }) => {
     return (
       <View style={styles.itemBox}>
-        <Text style={styles.itemID}>{item?.ID || "N/A"}</Text>
         <Text style={styles.itemTitle}>{item?.BoneName || "N/A"}</Text>
         <Text style={styles.itemText}>
           Alternate Name: {item?.AlternateName || "N/A"}
